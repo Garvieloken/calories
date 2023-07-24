@@ -28,17 +28,21 @@
         </div>
         </head>
         <div class="stepper-step_two">
-            <button class="left-arrow">
-                <img class="left-arrow_img" src="/assets/arrow-left.svg" alt="" width="24" height="24" />
-                <span class="left-arrow__text">Назад</span>
-            </button>
+            <a href="/html/step_two.html">
+                <button class="left-arrow">
+                    <img class="left-arrow_img" src="/assets/arrow-left.svg" alt="" width="24" height="24" />
+                    <span class="left-arrow__text">Назад</span>
+                </button>
+            </a>
             <div class="page-number">
                 <span><span class="color-green__pages">3/</span>3</span>
             </div>
-            <button class="right-arrow">
-                <span class="right-arrow__text">Вперед</span>
-                <img class="right-arrow_img" src="/assets/arrow-right.svg" alt="" width="24" height="24" />
-            </button>
+            <a href="/html/step_four.html">
+                <button class="right-arrow">
+                    <span class="right-arrow__text">Вперед</span>
+                    <img class="right-arrow_img" src="/assets/arrow-right.svg" alt="" width="24" height="24" />
+                </button>
+            </a>
         </div>
         <div class="content-container__step-three">
             <div class="textarea_head">
@@ -56,48 +60,62 @@
                     <span class="sex-font">Male</span>
                 </div>
                 <div class="vl"></div>
-                <div class="avatar-color__select_container">
-                    <span class="select-avatar__text">Выберите аватар:</span>
-                    <div class="avatar-list__container">
-                        <button class="avatar-select_one">
-                            <img src="/assets/user-square.svg" alt="" width="24" height="24">
-                        </button>
-                        <button class="avatar-select_two">
-                            <img src="/assets/user-square.svg" alt="" width="24" height="24">
-                        </button>
-                        <button class="avatar-select_three">
-                            <img src="/assets/user-square.svg" alt="" width="24" height="24">
-                        </button>
-                        <button class="avatar-select_four">
-                            <img src="/assets/user-square.svg" alt="" width="24" height="24">
-                        </button>
-                        <button class="avatar-select_five">
-                            <img src="/assets/user-square.svg" alt="" width="24" height="24">
-                        </button>
-                        <button class="avatar-select_six">
-                            <img src="/assets/user-square.svg" alt="" width="24" height="24">
-                        </button>
+
+                <!-- после vertical-line -->
+                <div class="avatar-container__select">
+                    <span class="avatar-textarea">Выберите аватар:</span>
+                    <div class="avatar-btn__container">
+                        <div class="avatar-btn__container">
+                            <button class="avatar-btn">
+                                <img src="/assets/user-square.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="avatar-btn__container">
+                            <button class="avatar-btn">
+                                <img src="/assets/user-square.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="avatar-btn__container">
+                            <button class="avatar-btn">
+                                <img src="/assets/user-square.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="avatar-btn__container">
+                            <button class="avatar-btn">
+                                <img src="/assets/user-square.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="avatar-btn__container">
+                            <button class="avatar-btn">
+                                <img src="/assets/user-square.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="avatar-btn__container">
+                            <button class="avatar-btn">
+                                <img src="/assets/user-square.svg" alt="">
+                            </button>
+                        </div>
                     </div>
-                    <span class="select-avatar__text">Выберите цвет:</span>
-                    <div class="color-pick_container">
-                        <div class="color-pick__img">
-                            <button class="pink-btn">
-                                <img src="/assets/Ellipse 211.svg" alt="">
+                    <span class="color-textarea">Выберите цвет:</span>
+                    <div class="color-btn__container">
+                        <div class="color-btn">
+                            <button class="button__color hover-style">
+                                <div class="div-color" style="background-color: #FFABAB"></div>
                             </button>
-                            <button class="orange-btn">
-                                <img src="/assets/Ellipse 212.svg" alt="">
+                            <button class="button__color">
+                                <div class="div-color" style="background-color: #FFDAAB"></div>
                             </button>
-                            <button class="light-green-btn">
-                                <img src="/assets/Ellipse 213.svg" alt="">
+                            <button class="button__color">
+                                <div class="div-color" style="background-color: #DDFFAB"></div>
                             </button>
-                            <button class="blue-btn">
-                                <img src="/assets/Ellipse 214.svg" alt="">
+                            <button class="button__color">
+                                <div class="div-color" style="background-color: #ABE4FF"></div>
                             </button>
-                            <button class="purple-btn">
-                                <img src="/assets/Ellipse 215.svg" alt="">
+                            <button class="button__color">
+                                <div class="div-color" style="background-color: #D9ABFF"></div>
                             </button>
-                            <button class="green-btn">
-                                <img src="/assets/Ellipse 216.svg" alt="">
+                            <button class="button__color">
+                                <div class="div-color" style="background-color: #ABFFB8"></div>
                             </button>
                         </div>
                     </div>
@@ -108,6 +126,8 @@
                     <button class="button-continue__btn"><span class="text-continue">Продолжить</span></button>
                 </a>
             </div>
+
+        </div>
         </div>
         </div>
     </header>
