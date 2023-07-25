@@ -67,7 +67,7 @@ a {
 
 .button-search {
   height: 50px;
-  width: 94px;
+  width: 50px;
   text-transform: uppercase;
   border-radius: 15px;
   background-color: transparent;
@@ -76,10 +76,10 @@ a {
   transition: 0.5s;
 }
 
-.button-search:hover {
+/* .button-search:hover {
   background-color: #ddd;
   color: black;
-}
+} */
 
 .button-search:active {
   background-color: #ddd;
@@ -297,13 +297,17 @@ a {
 
 .weight-label,
 .height-label,
-.name-label {
+.name-label,
+.mail-label,
+.password-label {
   margin-right: auto;
 }
 
 .weight-label__text,
 .height-label__text,
-.name-label__text {
+.name-label__text,
+.mail-label__text,
+.password-label__text {
   color: #292d32;
   font-family: Ubuntu;
   font-size: 16px;
@@ -314,7 +318,9 @@ a {
 
 .weight-input__container,
 .height-input__container,
-.name-input__container {
+.name-input__container,
+.mail-input__container,
+.password-input__container {
   display: flex;
   height: 50px;
   padding: 10px;
@@ -328,7 +334,8 @@ a {
 
 .weight-input__text,
 .height-input__text,
-.name-input__text {
+.name-input__text,
+.mail-input__text {
   width: 1028px;
   height: 16px;
   color: #50565c;
@@ -570,3 +577,74 @@ a {
 .div-color:active {
   border: #292d32;
 }
+
+/* password form */
+#login-form input[type="password"],
+#login-form input[type="text"] {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.password-container {
+  width: 680px;
+  height: 16px;
+  color: #50565c;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  position: relative;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 28%;
+  right: 4%;
+  cursor: pointer;
+  color: black;
+}
+
+.fa-eye-slash {
+  position: absolute;
+  top: 28%;
+  right: 4%;
+  cursor: pointer;
+  color: black;
+}
+
+/* 
+.name-input__container,
+.mail-input__container,
+.password-input__container {
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 15px;
+  background: #f8f8f8;
+} */
+
+/* 
+.name-input__text,
+.mail-input__text {
+  width: 1028px;
+  height: 16px;
+  color: #50565c;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+} */
