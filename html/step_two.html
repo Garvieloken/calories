@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="stylesheet" href="/global/global.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <title>Document</title>
 
 <body>
@@ -55,36 +56,33 @@
       <span class="type-data__text">Укажите данные</span>
     </div>
     <!--  -->
-    <div class="weight-label">
-      <span class="weight-label__text">Почта</span>
+    <div class="mail-label">
+      <span class="mail-label__text">Почта</span>
     </div>
-    <div class="weight-input__container">
-      <input class="weight-input__text" type="text" name="" id="" placeholder="Введите электронный адрес"
+    <div class="mail-input__container">
+      <input class="mail-input__text" type="text" name="" id="" placeholder="Введите электронный адрес"
         value="test@mail.ru">
     </div>
     <!--  -->
-    <div class="height-label">
-      <span class="height-label__text">Имя</span>
-    </div>
-    <div class="height-input__container">
-      <input class="height-input__text" type="text" name="" id="" placeholder="Введите имя" value="user">
-    </div>
-    <!--  -->
     <div class="name-label">
-      <span class="name-label__text">Пароль</span>
+      <span class="name-label__text">Имя</span>
     </div>
     <div class="name-input__container">
-      <input class="name-input__text" type="password" name="" id="" placeholder="Введите пароль" value="*****">
-      <div class="eye-slash">
-        <button class="eye-slash__button">
-          <img src="/assets/eye-slash.svg" alt="">
-        </button>
-      </div>
-      <div class="eye">
-        <button class="eye__button">
-          <img class="eye-logo" src="/assets/eye.svg" alt="">
-        </button>
-      </div>
+      <input class="name-input__text" type="text" name="" id="" placeholder="Введите имя" value="user">
+    </div>
+    <!--  -->
+    <div class="password-label">
+      <span class="password-label__text">Пароль</span>
+    </div>
+    <div class="password-input__container">
+      <form action="/login" method="POST" id="login-form">
+        <div class="password-container">
+          <input style="border: none; background-color: transparent; overflow: hidden; outline: none;" type="password"
+            name="password" id="password" placeholder="Enter password...">
+          <i class="fa-regular fa-eye-slash" id="show-password"></i>
+
+        </div>
+      </form>
     </div>
     <div class="button-continue__container">
       <a href="/html/step_three.html">
@@ -94,5 +92,6 @@
     </div>
   </div>
 </body>
+<script src="/js/script.js"></script>
 
 </html>
