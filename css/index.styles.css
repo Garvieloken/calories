@@ -1,0 +1,148 @@
+/* CONTENT CONTAINER */
+
+.content-container {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 1140px;
+  padding: 60px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.weight-label {
+  margin-right: auto;
+}
+
+.weight-label__text {
+  color: #292d32;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.weight-input__container {
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 15px;
+  background: #f8f8f8;
+}
+
+.weight-input__text {
+  width: 1028px;
+  height: 16px;
+  color: #50565c;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.height-label {
+  margin-right: auto;
+}
+
+.height-label__text {
+  color: #292d32;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.height-input__container {
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 15px;
+  background: #f8f8f8;
+}
+.height-input__text {
+  width: 1028px;
+  height: 16px;
+  color: #50565c;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.text-kg,
+.text-sm {
+  color: #292d32;
+  text-align: right;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* buttons container - gender */
+
+.buttons-container__gender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.male-button__container,
+.female-button__container {
+  width: 216px;
+  height: 50px;
+}
+
+.male-button {
+  background-color: #5fc2e1;
+  border-radius: 15px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.male-button:hover {
+  background-color: #4690a7;
+  color: #4690a7;
+}
+
+.female-button {
+  background-color: #e887d2;
+  border-radius: 15px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.female-button:hover {
+  background-color: #b1669f;
+  color: #b1669f;
+}

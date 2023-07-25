@@ -1,3 +1,4 @@
+/* HEADER CONTAINER */
 * {
   box-sizing: border-box;
 }
@@ -18,8 +19,7 @@ a {
   text-decoration: none;
 }
 
-.header {
-}
+/* header */
 
 .top-menu__container {
   display: flex;
@@ -36,6 +36,10 @@ a {
   border-radius: 20px;
   background: #fff;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.02);
+}
+
+.menu-links a {
+  margin-left: 20px;
 }
 
 .input-container {
@@ -62,7 +66,23 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  padding-left: 20px;
+  line-height: normal;
+}
+
+.button-search {
+  height: 50px;
+  width: 50px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  background-color: transparent;
+  border: none;
+  user-select: none;
+  transition: 0.5s;
+}
+
+.button-search:active {
+  background-color: #ddd;
+  color: black;
 }
 
 .search-button__logo {
@@ -70,10 +90,150 @@ a {
   height: 24px;
 }
 
-.menu-links a {
-  margin-left: 20px;
-}
-
 .menu-links a:hover {
   color: #8eaf0c;
+}
+
+/* STEPPER CONTAINER */
+
+.stepper {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 1140px;
+  height: 70px;
+  padding: 10px 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.02);
+}
+
+.left-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 15px;
+  border-style: none;
+  color: #50565c;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.left-arrow:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.left-arrow_img {
+  margin-right: 15px;
+}
+
+.page-number {
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.right-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 15px;
+  border-style: none;
+  color: #50565c;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.right-arrow:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.right-arrow_img {
+  margin-left: 15px;
+}
+
+.color-green__pages {
+  color: #8eaf0c;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.step-count {
+  color: #50565c;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.step-name {
+  color: #a0a0a0;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* BUTTON CONTINUE */
+
+.button-continue__container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-continue__btn {
+  display: flex;
+  width: 216px;
+  height: 50px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: #8eaf0c;
+  border: none;
+  cursor: pointer;
+}
+
+.text-continue {
+  color: #fff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button-continue__btn:hover {
+  background-color: #667e09;
+  color: #667e09;
 }
