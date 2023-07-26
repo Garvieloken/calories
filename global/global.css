@@ -237,3 +237,163 @@ a {
   background-color: #667e09;
   color: #667e09;
 }
+
+.type-data {
+  margin: 0 auto;
+}
+
+.type-data__text {
+  color: #292d32;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* avatar main container */
+
+.avatar-main__container {
+  display: flex;
+  width: 700px;
+  height: 306px;
+  padding: 10px 0px 10px 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: #f8f8f8;
+  justify-content: center;
+}
+
+.avatar-select__container {
+  display: flex;
+  width: 220px;
+  padding: 5px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.choosed-pic__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9abff;
+  stroke-width: 2px;
+  stroke: #292d32;
+  width: 165px;
+  height: 165px;
+  border-style: solid;
+  border-radius: 100px;
+}
+
+.user-name {
+  color: #292d32;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sex-font {
+  color: #8eaf0c;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.avatar-container__select {
+  display: flex;
+  padding: 5px 0px 5px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.avatar-textarea {
+  align-self: stretch;
+  color: #292d32;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.avatar-btn__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  transition: 0.2s;
+  background-color: #f8f8f8;
+}
+
+.avatar-btn:hover {
+  background-color: rgb(216, 216, 216);
+  opacity: 70%;
+}
+
+.avatar-btn:active {
+  border: #292d32;
+}
+
+.color-textarea {
+  align-self: stretch;
+  color: #292d32;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.color-btn__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.button__color {
+  border: none;
+  background-color: transparent;
+}
+
+.div-color {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.div-color:hover {
+  opacity: 70%;
+}
+
+.div-color:active {
+  border: #292d32;
+}
